@@ -30,7 +30,9 @@
           >
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-link link text" href="./index.html">Studio</a>
+              <a class="header-link link text current" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="header-item">
               <a class="header-link link text" href="./portfolio.html"
@@ -69,16 +71,6 @@
           <button class="slogan-button btn" type="button" data-modal-open>
             Order Service
           </button>
-        </div>
-        <!--BACKDROP-->
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button class="backdrop-button" type="button" data-modal-close>
-              <svg class="backdrop-button-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-close-black"></use>
-              </svg>
-            </button>
-          </div>
         </div>
       </section>
 
@@ -448,6 +440,17 @@
         </div>
       </div>
     </footer>
+    <!--BACKDROP-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="backdrop-button" type="button" data-modal-close>
+          <svg class="backdrop-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!--SCRIPT-->
     <script src="./js/modal.js"></script>
   </body>
 </html>
